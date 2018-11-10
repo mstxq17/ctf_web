@@ -501,3 +501,8 @@ sql_string = """
 # End
 
 ​	针对这道题一方面是我菜,还有一方面我想对那些喜欢搞事情的大佬希望能给我们这些菜鸡一点生存空间,让出题的本意不被误导,上次慕测那个省赛dedecms被改密码当时我就懵b，连这道题都做不出来，那300分的估计不用做了，一方面经验主义的锅，一方面大佬的锅，一方面出题人的锅，最后化整为0。 学习是进行时,希望能认识更多的大佬，让大佬带我飞。 
+
+###参考链接:
+[python沙盒绕过](http://cauc.me/2017/11/16/python沙盒绕过/)
+[Python 沙盒绕过 p神](https://bestwing.me/awesome-python-sandbox-in-ciscn.html)
+[用python继承链搞事情](https://xz.aliyun.com/t/2308)
